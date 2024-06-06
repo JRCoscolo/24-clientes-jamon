@@ -1,24 +1,29 @@
-Math.floor(Math.random() * 10001)
-
-cliente1 = "Jose Luis" + Math.floor(Math.random() * 10001)
-cliente2 = "Mariano" + Math.floor(Math.random() * 10001)
-cliente3 = "Chindasvinta" + Math.floor(Math.random() * 10001)
-cliente4 = "Calico" + Math.floor(Math.random() * 10001)
-cliente5 = "DonRamon" + Math.floor(Math.random() * 10001)
-cliente6 = "Alarico" + Math.floor(Math.random() * 10001)
-cliente7 = "Widerico" + Math.floor(Math.random() * 10001)
-cliente8 = "Perchita" + Math.floor(Math.random() * 10001)
-cliente9 = "SombraOscura" + Math.floor(Math.random() * 10001)
-cliente10 = "ChachoMigué" + Math.floor(Math.random() * 10001)
-listaclientes = [cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7, cliente8, cliente9, cliente10]
-
-
-listaclientes.forEach(premios => {
-    
-    if(listaclientes[i] = 10000){
-        console.log(listaclientes[i] + "¡Enhorabuena, has ganado un jamón!")
+let clientes = ["Alarico", "Widerico", "Chindasvinta", "DonRamon", "Perchita", "Muzaman", "Lobombre", 
+"Sombra Oscura",
+"Widerico",
+"Widerico",
+]
+let dinero = [Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+    Math.floor(Math.random() * 10001),
+]
+//Usamos foreach, porque en lugar de una programación imperativa, es un paradigma de programación declarativa.
+clientes.forEach(function(valor,index){
+dinero.forEach(function(valor,index) {
+    if (valor = 10000){
+        console.log("Ganadores del jamón:", clientes[valor = dinero[index]], index)
     }
-});
+    else (valor <10000);{
+        console.log("Ganadores de la cesta", clientes[valor = dinero[index]], index)
+    }
     
+    })
     
-
+})
